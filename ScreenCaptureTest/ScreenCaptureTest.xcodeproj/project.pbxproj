@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF026EC514E0153B00AA9DFD /* DSCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF026EC014E014F900AA9DFD /* DSCapture.framework */; };
+		DF026EC914E0155D00AA9DFD /* DSCapture.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF026EC014E014F900AA9DFD /* DSCapture.framework */; };
+		DF8EE2A214D1BB2E0011BD68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8EE2A114D1BB2E0011BD68 /* Cocoa.framework */; };
+		DF8EE2AC14D1BB2E0011BD68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE2AA14D1BB2E0011BD68 /* InfoPlist.strings */; };
+		DF8EE2AE14D1BB2E0011BD68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2AD14D1BB2E0011BD68 /* main.m */; };
+		DF8EE2B214D1BB2E0011BD68 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE2B014D1BB2E0011BD68 /* Credits.rtf */; };
+		DF8EE2B514D1BB2E0011BD68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2B414D1BB2E0011BD68 /* AppDelegate.m */; };
+		DF8EE2B814D1BB2F0011BD68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE2B614D1BB2F0011BD68 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF026EBF14E014F900AA9DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF026EB814E014F900AA9DFD /* DSCapture.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DF026E7A14E0144500AA9DFD;
+			remoteInfo = DSCapture;
+		};
+		DF026EC614E0153E00AA9DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF026EB814E014F900AA9DFD /* DSCapture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DF026E7914E0144500AA9DFD;
+			remoteInfo = DSCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF026EC814E0155500AA9DFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DF026EC914E0155D00AA9DFD /* DSCapture.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF026EB814E014F900AA9DFD /* DSCapture.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DSCapture.xcodeproj; path = ../DSCapture/DSCapture.xcodeproj; sourceTree = "<group>"; };
+		DF8EE29D14D1BB2E0011BD68 /* ScreenCaptureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenCaptureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8EE2A114D1BB2E0011BD68 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DF8EE2A414D1BB2E0011BD68 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DF8EE2A614D1BB2E0011BD68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF8EE2A914D1BB2E0011BD68 /* ScreenCaptureTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenCaptureTest-Info.plist"; sourceTree = "<group>"; };
+		DF8EE2AB14D1BB2E0011BD68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF8EE2AD14D1BB2E0011BD68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF8EE2AF14D1BB2E0011BD68 /* ScreenCaptureTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenCaptureTest-Prefix.pch"; sourceTree = "<group>"; };
+		DF8EE2B114D1BB2E0011BD68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DF8EE2B314D1BB2E0011BD68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF8EE2B414D1BB2E0011BD68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF8EE2B714D1BB2F0011BD68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8EE29A14D1BB2E0011BD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF026EC514E0153B00AA9DFD /* DSCapture.framework in Frameworks */,
+				DF8EE2A214D1BB2E0011BD68 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF026EB914E014F900AA9DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF026EC014E014F900AA9DFD /* DSCapture.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8EE29214D1BB2E0011BD68 = {
+			isa = PBXGroup;
+			children = (
+				DF8EE2A714D1BB2E0011BD68 /* ScreenCaptureTest */,
+				DF8EE2A014D1BB2E0011BD68 /* Frameworks */,
+				DF8EE29E14D1BB2E0011BD68 /* Products */,
+				DF026EB814E014F900AA9DFD /* DSCapture.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8EE29E14D1BB2E0011BD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EE29D14D1BB2E0011BD68 /* ScreenCaptureTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8EE2A014D1BB2E0011BD68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EE2A114D1BB2E0011BD68 /* Cocoa.framework */,
+				DF8EE2A314D1BB2E0011BD68 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF8EE2A314D1BB2E0011BD68 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EE2A414D1BB2E0011BD68 /* AppKit.framework */,
+				DF8EE2A614D1BB2E0011BD68 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DF8EE2A714D1BB2E0011BD68 /* ScreenCaptureTest */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EE2B314D1BB2E0011BD68 /* AppDelegate.h */,
+				DF8EE2B414D1BB2E0011BD68 /* AppDelegate.m */,
+				DF8EE2B614D1BB2F0011BD68 /* MainMenu.xib */,
+				DF8EE2A814D1BB2E0011BD68 /* Supporting Files */,
+			);
+			path = ScreenCaptureTest;
+			sourceTree = "<group>";
+		};
+		DF8EE2A814D1BB2E0011BD68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EE2A914D1BB2E0011BD68 /* ScreenCaptureTest-Info.plist */,
+				DF8EE2AA14D1BB2E0011BD68 /* InfoPlist.strings */,
+				DF8EE2AD14D1BB2E0011BD68 /* main.m */,
+				DF8EE2AF14D1BB2E0011BD68 /* ScreenCaptureTest-Prefix.pch */,
+				DF8EE2B014D1BB2E0011BD68 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8EE29C14D1BB2E0011BD68 /* ScreenCaptureTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8EE2BB14D1BB2F0011BD68 /* Build configuration list for PBXNativeTarget "ScreenCaptureTest" */;
+			buildPhases = (
+				DF8EE29914D1BB2E0011BD68 /* Sources */,
+				DF8EE29A14D1BB2E0011BD68 /* Frameworks */,
+				DF8EE29B14D1BB2E0011BD68 /* Resources */,
+				DF026EC814E0155500AA9DFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF026EC714E0153E00AA9DFD /* PBXTargetDependency */,
+			);
+			name = ScreenCaptureTest;
+			productName = ScreenCaptureTest;
+			productReference = DF8EE29D14D1BB2E0011BD68 /* ScreenCaptureTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8EE29414D1BB2E0011BD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DF8EE29714D1BB2E0011BD68 /* Build configuration list for PBXProject "ScreenCaptureTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF8EE29214D1BB2E0011BD68;
+			productRefGroup = DF8EE29E14D1BB2E0011BD68 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DF026EB914E014F900AA9DFD /* Products */;
+					ProjectRef = DF026EB814E014F900AA9DFD /* DSCapture.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DF8EE29C14D1BB2E0011BD68 /* ScreenCaptureTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DF026EC014E014F900AA9DFD /* DSCapture.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DSCapture.framework;
+			remoteRef = DF026EBF14E014F900AA9DFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8EE29B14D1BB2E0011BD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8EE2AC14D1BB2E0011BD68 /* InfoPlist.strings in Resources */,
+				DF8EE2B214D1BB2E0011BD68 /* Credits.rtf in Resources */,
+				DF8EE2B814D1BB2F0011BD68 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8EE29914D1BB2E0011BD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8EE2AE14D1BB2E0011BD68 /* main.m in Sources */,
+				DF8EE2B514D1BB2E0011BD68 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF026EC714E0153E00AA9DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DSCapture;
+			targetProxy = DF026EC614E0153E00AA9DFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF8EE2AA14D1BB2E0011BD68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8EE2AB14D1BB2E0011BD68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF8EE2B014D1BB2E0011BD68 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8EE2B114D1BB2E0011BD68 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DF8EE2B614D1BB2F0011BD68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8EE2B714D1BB2F0011BD68 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF8EE2B914D1BB2F0011BD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		DF8EE2BA14D1BB2F0011BD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		DF8EE2BC14D1BB2F0011BD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenCaptureTest/ScreenCaptureTest-Prefix.pch";
+				INFOPLIST_FILE = "ScreenCaptureTest/ScreenCaptureTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF8EE2BD14D1BB2F0011BD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenCaptureTest/ScreenCaptureTest-Prefix.pch";
+				INFOPLIST_FILE = "ScreenCaptureTest/ScreenCaptureTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8EE29714D1BB2E0011BD68 /* Build configuration list for PBXProject "ScreenCaptureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8EE2B914D1BB2F0011BD68 /* Debug */,
+				DF8EE2BA14D1BB2F0011BD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8EE2BB14D1BB2F0011BD68 /* Build configuration list for PBXNativeTarget "ScreenCaptureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8EE2BC14D1BB2F0011BD68 /* Debug */,
+				DF8EE2BD14D1BB2F0011BD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8EE29414D1BB2E0011BD68 /* Project object */;
+}

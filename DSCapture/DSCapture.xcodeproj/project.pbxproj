@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF026E7E14E0144500AA9DFD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF026E7D14E0144500AA9DFD /* Cocoa.framework */; };
+		DF026E8814E0144500AA9DFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF026E8614E0144500AA9DFD /* InfoPlist.strings */; };
+		DF026E9314E0146500AA9DFD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DF026E9214E0146500AA9DFD /* LICENSE */; };
+		DF026EA414E0148500AA9DFD /* DSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = DF026E9414E0148500AA9DFD /* DSCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF026EA514E0148500AA9DFD /* DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026E9514E0148500AA9DFD /* DSCapture.m */; };
+		DF026EA614E0148500AA9DFD /* DSCaptureData.h in Headers */ = {isa = PBXBuildFile; fileRef = DF026E9614E0148500AA9DFD /* DSCaptureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF026EA714E0148500AA9DFD /* DSCaptureData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026E9714E0148500AA9DFD /* DSCaptureData.m */; };
+		DF026EA814E0148500AA9DFD /* DSCaptureFullController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF026E9814E0148500AA9DFD /* DSCaptureFullController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF026EA914E0148500AA9DFD /* DSCaptureFullController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026E9914E0148500AA9DFD /* DSCaptureFullController.m */; };
+		DF026EAA14E0148500AA9DFD /* DSCaptureFullController+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026E9A14E0148500AA9DFD /* DSCaptureFullController+CoreGraphics.m */; };
+		DF026EAB14E0148500AA9DFD /* DSCaptureFullController+System.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026E9B14E0148500AA9DFD /* DSCaptureFullController+System.m */; };
+		DF026EAC14E0148500AA9DFD /* DSCaptureSelectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF026E9C14E0148500AA9DFD /* DSCaptureSelectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF026EAD14E0148500AA9DFD /* DSCaptureSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026E9D14E0148500AA9DFD /* DSCaptureSelectionController.m */; };
+		DF026EAE14E0148500AA9DFD /* DSCaptureSelectionController+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026E9E14E0148500AA9DFD /* DSCaptureSelectionController+CoreGraphics.m */; };
+		DF026EAF14E0148500AA9DFD /* DSCaptureSelectionController+System.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026E9F14E0148500AA9DFD /* DSCaptureSelectionController+System.m */; };
+		DF026EB014E0148500AA9DFD /* DSCaptureSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF026EA014E0148500AA9DFD /* DSCaptureSelectionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DF026EB114E0148500AA9DFD /* DSCaptureSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026EA114E0148500AA9DFD /* DSCaptureSelectionView.m */; };
+		DF026EB214E0148500AA9DFD /* DSCaptureSelectionWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DF026EA214E0148500AA9DFD /* DSCaptureSelectionWindow.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DF026EB314E0148500AA9DFD /* DSCaptureSelectionWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026EA314E0148500AA9DFD /* DSCaptureSelectionWindow.m */; };
+		DF026EDE14E045A600AA9DFD /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF026EDD14E045A600AA9DFD /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF026E7A14E0144500AA9DFD /* DSCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF026E7D14E0144500AA9DFD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DF026E8014E0144500AA9DFD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DF026E8114E0144500AA9DFD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF026E8214E0144500AA9DFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF026E8514E0144500AA9DFD /* DSCapture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSCapture-Info.plist"; sourceTree = "<group>"; };
+		DF026E8714E0144500AA9DFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF026E8914E0144500AA9DFD /* DSCapture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSCapture-Prefix.pch"; sourceTree = "<group>"; };
+		DF026E9214E0146500AA9DFD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DF026E9414E0148500AA9DFD /* DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCapture.h; sourceTree = "<group>"; };
+		DF026E9514E0148500AA9DFD /* DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCapture.m; sourceTree = "<group>"; };
+		DF026E9614E0148500AA9DFD /* DSCaptureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCaptureData.h; sourceTree = "<group>"; };
+		DF026E9714E0148500AA9DFD /* DSCaptureData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCaptureData.m; sourceTree = "<group>"; };
+		DF026E9814E0148500AA9DFD /* DSCaptureFullController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCaptureFullController.h; sourceTree = "<group>"; };
+		DF026E9914E0148500AA9DFD /* DSCaptureFullController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCaptureFullController.m; sourceTree = "<group>"; };
+		DF026E9A14E0148500AA9DFD /* DSCaptureFullController+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DSCaptureFullController+CoreGraphics.m"; sourceTree = "<group>"; };
+		DF026E9B14E0148500AA9DFD /* DSCaptureFullController+System.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DSCaptureFullController+System.m"; sourceTree = "<group>"; };
+		DF026E9C14E0148500AA9DFD /* DSCaptureSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCaptureSelectionController.h; sourceTree = "<group>"; };
+		DF026E9D14E0148500AA9DFD /* DSCaptureSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCaptureSelectionController.m; sourceTree = "<group>"; };
+		DF026E9E14E0148500AA9DFD /* DSCaptureSelectionController+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DSCaptureSelectionController+CoreGraphics.m"; sourceTree = "<group>"; };
+		DF026E9F14E0148500AA9DFD /* DSCaptureSelectionController+System.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DSCaptureSelectionController+System.m"; sourceTree = "<group>"; };
+		DF026EA014E0148500AA9DFD /* DSCaptureSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCaptureSelectionView.h; sourceTree = "<group>"; };
+		DF026EA114E0148500AA9DFD /* DSCaptureSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCaptureSelectionView.m; sourceTree = "<group>"; };
+		DF026EA214E0148500AA9DFD /* DSCaptureSelectionWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCaptureSelectionWindow.h; sourceTree = "<group>"; };
+		DF026EA314E0148500AA9DFD /* DSCaptureSelectionWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCaptureSelectionWindow.m; sourceTree = "<group>"; };
+		DF026EDD14E045A600AA9DFD /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.md; path = ../readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF026E7614E0144500AA9DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF026E7E14E0144500AA9DFD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF026E6E14E0144500AA9DFD = {
+			isa = PBXGroup;
+			children = (
+				DF026E8314E0144500AA9DFD /* DSCapture */,
+				DF026E7C14E0144500AA9DFD /* Frameworks */,
+				DF026E7B14E0144500AA9DFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF026E7B14E0144500AA9DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF026E7A14E0144500AA9DFD /* DSCapture.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF026E7C14E0144500AA9DFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF026E7D14E0144500AA9DFD /* Cocoa.framework */,
+				DF026E7F14E0144500AA9DFD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF026E7F14E0144500AA9DFD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF026E8014E0144500AA9DFD /* AppKit.framework */,
+				DF026E8114E0144500AA9DFD /* CoreData.framework */,
+				DF026E8214E0144500AA9DFD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DF026E8314E0144500AA9DFD /* DSCapture */ = {
+			isa = PBXGroup;
+			children = (
+				DF026E9414E0148500AA9DFD /* DSCapture.h */,
+				DF026E9514E0148500AA9DFD /* DSCapture.m */,
+				DF026E9614E0148500AA9DFD /* DSCaptureData.h */,
+				DF026E9714E0148500AA9DFD /* DSCaptureData.m */,
+				DF026E9814E0148500AA9DFD /* DSCaptureFullController.h */,
+				DF026E9914E0148500AA9DFD /* DSCaptureFullController.m */,
+				DF026E9A14E0148500AA9DFD /* DSCaptureFullController+CoreGraphics.m */,
+				DF026E9B14E0148500AA9DFD /* DSCaptureFullController+System.m */,
+				DF026E9C14E0148500AA9DFD /* DSCaptureSelectionController.h */,
+				DF026E9D14E0148500AA9DFD /* DSCaptureSelectionController.m */,
+				DF026E9E14E0148500AA9DFD /* DSCaptureSelectionController+CoreGraphics.m */,
+				DF026E9F14E0148500AA9DFD /* DSCaptureSelectionController+System.m */,
+				DF026EA014E0148500AA9DFD /* DSCaptureSelectionView.h */,
+				DF026EA114E0148500AA9DFD /* DSCaptureSelectionView.m */,
+				DF026EA214E0148500AA9DFD /* DSCaptureSelectionWindow.h */,
+				DF026EA314E0148500AA9DFD /* DSCaptureSelectionWindow.m */,
+				DF026E8414E0144500AA9DFD /* Supporting Files */,
+				DF026E9214E0146500AA9DFD /* LICENSE */,
+				DF026EDD14E045A600AA9DFD /* readme.md */,
+			);
+			path = DSCapture;
+			sourceTree = "<group>";
+		};
+		DF026E8414E0144500AA9DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF026E8514E0144500AA9DFD /* DSCapture-Info.plist */,
+				DF026E8614E0144500AA9DFD /* InfoPlist.strings */,
+				DF026E8914E0144500AA9DFD /* DSCapture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF026E7714E0144500AA9DFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF026EA414E0148500AA9DFD /* DSCapture.h in Headers */,
+				DF026EA614E0148500AA9DFD /* DSCaptureData.h in Headers */,
+				DF026EA814E0148500AA9DFD /* DSCaptureFullController.h in Headers */,
+				DF026EAC14E0148500AA9DFD /* DSCaptureSelectionController.h in Headers */,
+				DF026EB014E0148500AA9DFD /* DSCaptureSelectionView.h in Headers */,
+				DF026EB214E0148500AA9DFD /* DSCaptureSelectionWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF026E7914E0144500AA9DFD /* DSCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF026E8F14E0144500AA9DFD /* Build configuration list for PBXNativeTarget "DSCapture" */;
+			buildPhases = (
+				DF026E7514E0144500AA9DFD /* Sources */,
+				DF026E7614E0144500AA9DFD /* Frameworks */,
+				DF026E7714E0144500AA9DFD /* Headers */,
+				DF026E7814E0144500AA9DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSCapture;
+			productName = DSCapture;
+			productReference = DF026E7A14E0144500AA9DFD /* DSCapture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF026E7014E0144500AA9DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DF026E7314E0144500AA9DFD /* Build configuration list for PBXProject "DSCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF026E6E14E0144500AA9DFD;
+			productRefGroup = DF026E7B14E0144500AA9DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF026E7914E0144500AA9DFD /* DSCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF026E7814E0144500AA9DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF026E8814E0144500AA9DFD /* InfoPlist.strings in Resources */,
+				DF026E9314E0146500AA9DFD /* LICENSE in Resources */,
+				DF026EDE14E045A600AA9DFD /* readme.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF026E7514E0144500AA9DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF026EA514E0148500AA9DFD /* DSCapture.m in Sources */,
+				DF026EA714E0148500AA9DFD /* DSCaptureData.m in Sources */,
+				DF026EA914E0148500AA9DFD /* DSCaptureFullController.m in Sources */,
+				DF026EAA14E0148500AA9DFD /* DSCaptureFullController+CoreGraphics.m in Sources */,
+				DF026EAB14E0148500AA9DFD /* DSCaptureFullController+System.m in Sources */,
+				DF026EAD14E0148500AA9DFD /* DSCaptureSelectionController.m in Sources */,
+				DF026EAE14E0148500AA9DFD /* DSCaptureSelectionController+CoreGraphics.m in Sources */,
+				DF026EAF14E0148500AA9DFD /* DSCaptureSelectionController+System.m in Sources */,
+				DF026EB114E0148500AA9DFD /* DSCaptureSelectionView.m in Sources */,
+				DF026EB314E0148500AA9DFD /* DSCaptureSelectionWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF026E8614E0144500AA9DFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF026E8714E0144500AA9DFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF026E8D14E0144500AA9DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		DF026E8E14E0144500AA9DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		DF026E9014E0144500AA9DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCapture/DSCapture-Prefix.pch";
+				INFOPLIST_FILE = "DSCapture/DSCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		DF026E9114E0144500AA9DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCapture/DSCapture-Prefix.pch";
+				INFOPLIST_FILE = "DSCapture/DSCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF026E7314E0144500AA9DFD /* Build configuration list for PBXProject "DSCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF026E8D14E0144500AA9DFD /* Debug */,
+				DF026E8E14E0144500AA9DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF026E8F14E0144500AA9DFD /* Build configuration list for PBXNativeTarget "DSCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF026E9014E0144500AA9DFD /* Debug */,
+				DF026E9114E0144500AA9DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF026E7014E0144500AA9DFD /* Project object */;
+}
