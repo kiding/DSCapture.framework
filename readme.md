@@ -12,7 +12,11 @@ With the framework, you can choose which one to use. See how below.
 
 Please try to check out ScreenCaptureTest application.
 
-After building the framework, add it to your project, and import <DSCapture/DSCapture.h>. If you don't know how, read [this][1].
+After building the framework, add it to your project, and:
+
+	#import <DSCapture/DSCapture.h> 
+
+If you don't know how, read [this][1].
 
 At first, you need to make a callback method which has (DSCaptureData *) as a parameter, something like this:
 
