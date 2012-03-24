@@ -33,7 +33,7 @@ To capture selection, you should invoke:
 
 	[[[DSCapture sharedCapture] selection] captureWithTarget:self selector:@selector(displayCaptureData:) useCG:NO];
 
-then it will popup an interface to select, and call back.
+then it will popup an interface to select, and call back. If the user cancels it, no method will be called back.
 
 At the callback method, you can:
 
