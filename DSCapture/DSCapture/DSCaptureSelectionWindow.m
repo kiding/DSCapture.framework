@@ -29,7 +29,8 @@
     // displayRect 기반으로 displayID 가져오기
     CGDirectDisplayID dspyIDArray[1];
     uint32_t dspyIDCount = 0;
-    if(CGGetDisplaysWithRect(displayRect, 1, dspyIDArray, &dspyIDCount) == kCGErrorSuccess)
+    
+    if(CGGetDisplaysWithRect(NSRectToCGRect(displayRect), 1, dspyIDArray, &dspyIDCount) == kCGErrorSuccess)
         displayID = dspyIDArray[0];
     else
         return nil;
@@ -46,7 +47,7 @@
         originPoint = NSMakePoint(-1, -1);
         
         isSelectionDone = NO;
-        selectionRect = NSMakeRect(-1, -1, -1, -1);
+        selectionRect = NSRectToCGRect(NSMakeRect(-1, -1, -1, -1));
         
         trackingArea = [[NSTrackingArea alloc] initWithRect:NSMakeRect(0, 0, displayRect.size.width, displayRect.size.height)
                                                     options:NSTrackingActiveAlways + NSTrackingMouseMoved + NSTrackingMouseEnteredAndExited

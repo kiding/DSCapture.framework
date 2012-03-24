@@ -26,7 +26,6 @@
 		DF026EB114E0148500AA9DFD /* DSCaptureSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026EA114E0148500AA9DFD /* DSCaptureSelectionView.m */; };
 		DF026EB214E0148500AA9DFD /* DSCaptureSelectionWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DF026EA214E0148500AA9DFD /* DSCaptureSelectionWindow.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DF026EB314E0148500AA9DFD /* DSCaptureSelectionWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DF026EA314E0148500AA9DFD /* DSCaptureSelectionWindow.m */; };
-		DF026EDE14E045A600AA9DFD /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DF026EDD14E045A600AA9DFD /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +54,6 @@
 		DF026EA114E0148500AA9DFD /* DSCaptureSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCaptureSelectionView.m; sourceTree = "<group>"; };
 		DF026EA214E0148500AA9DFD /* DSCaptureSelectionWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCaptureSelectionWindow.h; sourceTree = "<group>"; };
 		DF026EA314E0148500AA9DFD /* DSCaptureSelectionWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCaptureSelectionWindow.m; sourceTree = "<group>"; };
-		DF026EDD14E045A600AA9DFD /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.md; path = ../readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +125,6 @@
 				DF026EA314E0148500AA9DFD /* DSCaptureSelectionWindow.m */,
 				DF026E8414E0144500AA9DFD /* Supporting Files */,
 				DF026E9214E0146500AA9DFD /* LICENSE */,
-				DF026EDD14E045A600AA9DFD /* readme.md */,
 			);
 			path = DSCapture;
 			sourceTree = "<group>";
@@ -211,7 +208,6 @@
 			files = (
 				DF026E8814E0144500AA9DFD /* InfoPlist.strings in Resources */,
 				DF026E9314E0146500AA9DFD /* LICENSE in Resources */,
-				DF026EDE14E045A600AA9DFD /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

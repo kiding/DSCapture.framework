@@ -12,7 +12,7 @@ With the framework, you can choose which one to use. See how below.
 
 Please try to check out ScreenCaptureTest application.
 
-After building the framework, add it to your project, and:
+Download the framework, add it to your project, and:
 
 	#import <DSCapture/DSCapture.h> 
 
