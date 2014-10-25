@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A8BCC8BF-BDA3-4D89-9AF5-CE7958794FB9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ScreenCaptureTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FEA0A5E27E6701B45EC454B9685276192D9BE294</key>
+		<string>https://github.com/kiding/DSCapture.framework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ScreenCaptureTest/ScreenCaptureTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FEA0A5E27E6701B45EC454B9685276192D9BE294</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kiding/DSCapture.framework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FEA0A5E27E6701B45EC454B9685276192D9BE294</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FEA0A5E27E6701B45EC454B9685276192D9BE294</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DSCapture.framework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
