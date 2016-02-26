@@ -4,19 +4,17 @@ This framework enables you to easily implement screenshot functionality on your 
 
 * Core Graphics: Using Quartz Display Services, screen data goes directly to memory. Fast, but no window selection mode.
 
-* System: Using Mac OS X's screencapture, screen data goes to temp folder (/var/folders) once and loads back to memory. Slow, but great window selection mode.
+* System: Using Mac OS X's screencapture, screen data goes to temp folder `/var/folders` once and loads back to memory. Slow, but great window selection mode.
 
 With the framework, you can choose which one to use. See how below.
 
 # Using the Framework
 
-Please try to check out ScreenCaptureTest application.
+Check out ScreenCaptureTest application as an example.
 
-Download the framework, add it to your project, and:
+Drag & drop `DSCapture.xcodeproj` to your project. Link the framework to your target by adding `DSCapture.framework` in `Build Phases`. Include the header file:
 
 	#import <DSCapture/DSCapture.h> 
-
-If you don't know how, read [this][1].
 
 At first, you need to make a callback method which has (DSCaptureData *) as a parameter, something like this:
 
@@ -50,7 +48,7 @@ to get number of images of the sender. Normally, the number isn't bigger than 1 
 
 This framework follows MIT License.
 
-Copyright (C) 2012 by Dongsung "Don" Kim kiding@me.com
+Copyright (C) 2012 by Dongsung Kim kiding@me.com
  
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -69,7 +67,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-[1]: https://github.com/andymatuschak/Sparkle/wiki
-
-
